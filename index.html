@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Screenshot 2024-06-29 164726.png" class="logo">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <div class="front">
+                <div class="header-text">
+                    <p>Frontend Developer/C++ Coder</p>
+                    <h1>Hi,I'm <span>Bhumika Gupta</span></h1>
+                    <h2>Let's build something amazing together!</h2>
+                </div>
+                <div class="image-front">
+                    <img src="images/Untitled-removebg-preview.jpg">
+                </div>
+             </div>
+        </div>
+
+    </div>
+    <div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/IMG20230421144316.heic (1).jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br>
+                        <p>
+                            To be a part of a respected and progressive organization with success in a competitive environment of growth and excellence which provides steady growth along with the job satisfaction and self-development. Result-orientated and innovation software engineer specializing in Artificial Intelligence and Machine Learning. Proficient in problem-solving with effective communication and Authentic leadership.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>C++/C, PYTHON</br></li>
+                                <li><span>Tools</span><br>MS-Office, Git/GitHub,Wordpress</br></li>
+                                <li><span>Web development</span><br>Frontend,Backend</br></li>
+                                <li><span>Database</span><br>DBMS, MongoDB, mySQL</br></li>
+                                <li><span>Frameworks</span><br>Bootstrap,React</br></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>AICTE CYBERSECURITY VIRTUAL INTERSHIP</span><br>Learnt about the cybercrimes and how to control or handle them
+                                    <li>Threat Intelligence Utilization</li>
+                                    <li>Hands-On Security Tool Proficiency</li></br></li>
+                                <li><span>ANDROID DEVELOPER VIRTUAL INTERSHIP</span><br><li>Application Development Proficiency</li>
+                            <li>Collaborative Problem -Solving</li></br></li>  
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021-2025</span><br><li>Galgotias University, Greater Noida</li><li>BTech in Computer Science (AIML)</li><li>CGPA:8.71</li></br></li>
+                                <li><span>2020-2021</span><br><li>Siddhartha Public School, Delhi</li><li>12th-Science</li><li>Percentage:93%</li></br></li>
+                                <li><span>2018-2019</span><br><li>Manav Sthali School, New Delhi 2018-2019</li><li>10th</li><li>Percentage:95%</li></br></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>Web Designs</h2>
+                    <p>I specialize in creating visually appealing and responsive websites using HTML and CSS, ensuring a seamless user experience across all devices.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-word"></i>
+                    <h2>MS-Office</h2>
+                    <p>Expert in MS Office Suite, including Word, Excel, and PowerPoint, to streamline your documentation, data analysis, and presentations.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>Backend Development</h2>
+                    <p>Specializing in creating robust and scalable server-side applications using modern technologies and frameworks.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Experienced in solving complex problems using C++, including algorithm design and data structure implementation for efficient solutions.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/quiz.png" >
+                    <div class="layer">
+                    <h3>Quiz Website</h3>
+                    <p>Designed and developed an interactive Quiz Website using HTML and CSS, providing users with a dynamic and engaging way to test their knowledge on various topics.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/todo.png" >
+                    <div class="layer">
+                    <h3>Todo Website</h3>
+                    <p>Created a functional and user-friendly Todo Website using HTML and CSS, enabling users to manage their tasks efficiently with an intuitive interface.</p>
+                    <a href="https://github.com/bhumika2512/Todo-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/face reco.PNG">
+                    <div class="layer">
+                    <h3>Face Recognition Attendance System</h3>
+                    <p>Developed a Face Recognition Attendance System using cutting-edge technologies, providing an efficient and secure way to manage attendance with high accuracy.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">
+                        Contact Me
+                    </h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>gupta.bhumika2512@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8447817101</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/bhumika.gupta.927758/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/bhumikaa.gupta/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/bhumika-gupta-b14446260/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/bhumika2512/"><i class="fa-brands fa-github"></i></a>
+                        <a gref="https://www.geeksforgeeks.org/user/bhumika21scqh5i/"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <a href="images/RESUME.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents= document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+</html>
